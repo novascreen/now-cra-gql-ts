@@ -1,16 +1,16 @@
 {
-	"compilerOptions": {
-		"allowJs": true,
-		"allowSyntheticDefaultImports": true,
-		"baseUrl": ".",
-		"esModuleInterop": true,
-		"module": "commonjs",
-		"moduleResolution": "node",
-		"outDir": "dist",
-		"resolveJsonModule": true,
-		"sourceMap": true,
-		"strict": true,
-		"target": "es2018"
-	},
-	"include": ["**/*"]
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2018"
+  },
+  "include": ["**/*"]
 }

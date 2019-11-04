@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="./auth0.min.js"></script>
+<script type="text/javascript">
+    var webAuth = new auth0.WebAuth({
+      domain: '',
+      clientID: '',
+    });
+
+    webAuth.popup.callback();
+</script>
+</html>

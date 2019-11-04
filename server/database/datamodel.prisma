@@ -1,0 +1,18 @@
+type FavoriteShow {
+  id: ID! @unique
+  tvmaze: Int!
+  tvrage: Int
+  thetvdb: Int
+  imdb: String
+  user: User @relation(name: "UserFavoriteShows")
+}
+
+type User {
+  id: ID! @unique
+  auth0id: String! @unique
+  identity: String
+  email: String! @unique
+  name: String!
+  avatar: String
+  favoriteShows: [FavoriteShow!]! @relation(name: "UserFavoriteShows")
+}

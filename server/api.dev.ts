@@ -1,3 +1,6 @@
+/* eslint-disable import/first */
+require('dotenv').config();
+
 import http from 'http';
 import micro from 'micro';
 import handler from '.';
